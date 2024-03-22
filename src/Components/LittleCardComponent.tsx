@@ -14,10 +14,10 @@ const LittleCardComponent = (props: {
                 <img src={props.socialMediaIcon} alt="Social media icon" />
             </div>
 
-            <div className='flex justify-between items-end pt-5 pl-6 pr-7'>
+            <div className='flex justify-between items-end pt-5 pl-6 pr-7 pb-6'>
                 <p className='text-3xl font-bold'>{props.value1}</p>
 
-                <div className='flex justify-center items-center'>
+                <div className='flex justify-center items-center gap-1'>
                     <img src={props.arrowIcon} alt="Up or down arrow" />
                     <p className=''>{props.value2}</p>
                 </div>

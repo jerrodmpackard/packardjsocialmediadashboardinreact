@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+p {
+  font-size: 14px;
+}
+
+.greenFont {
+  color: hsl(163, 72%, 41%);
+}
+
+.redFont {
+  color: hsl(356, 69%, 56%);
+}

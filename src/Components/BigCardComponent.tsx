@@ -16,7 +16,7 @@ const BigCardComponent = (props: {
                     <p>{props.userName}</p>
                 </div>
 
-                <p className='flex justify-center text-5xl font-bold pb-3'>{props.followerNumber}</p>
+                <p className='flex justify-center text-[52px] font-bold pb-3'>{props.followerNumber}</p>
                 <p className='flex justify-center tracking-[0.3em]'>{props.caption}</p>
 
                 <div className='flex justify-center items-center gap-2 pt-6 pb-7'>

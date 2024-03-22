@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import '../App.css';
 import BigCardComponent from './BigCardComponent'
 import Facebook from '../images/icon-facebook.svg'
 import Twitter from '../images/icon-twitter.svg'
@@ -16,7 +17,7 @@ const HomeComponent = () => {
     return (
         <div className='grid grid-cols-4 container gap-7 mx-auto pt-10'>
             <div className='col-span-2'>
-                <h3>Social Media Dashboard</h3>
+                <h3 className='text-3xl font-bold'>Social Media Dashboard</h3>
                 <p>Total Followers: 23,004</p>
             </div>
             <div className='lg:col-span-2 sm:col-span-4 grid justify-end'>
@@ -30,7 +31,7 @@ const HomeComponent = () => {
             <BigCardComponent socialMediaIcon={Youtube} userName='Nathan F.' followerNumber='8239' caption='SUBSCRIBERS' arrowIcon={DownArrow} value='144 Today' />
 
             <div className='col-span-4'>
-                <h3>Overview - Today</h3>
+                <h3 className='text-2xl font-bold'>Overview - Today</h3>
             </div>
 
             <LittleCardComponent title='Page Views' socialMediaIcon={Facebook} value1='87' arrowIcon={UpArrow} value2='3%' />
