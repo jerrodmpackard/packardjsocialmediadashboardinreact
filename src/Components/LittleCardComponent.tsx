@@ -20,7 +20,7 @@ const LittleCardComponent = (props: {
 
                 <div className='flex justify-center items-center gap-1'>
                     <img src={props.arrowIcon} alt="Up or down arrow" />
-                    <p className={'font-bold ' + props.value2Color}>{props.value2}</p>
+                    <p className={'font-bold text-xs ' + props.value2Color}>{props.value2}</p>
                 </div>
             </div>
         </div>

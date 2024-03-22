@@ -28,10 +28,10 @@ const HomeComponent = () => {
 
     return (
         <div className='bg-lightMode-whiteBg dark:bg-darkMode-veryDarkBlueBg'>
-            <div className='bg-lightMode-veryPaleBlueTop dark:bg-darkMode-veryDarkBlueBgTop w-full h-64 absolute z-0 rounded-b-lg'></div>
+            <div className='bg-lightMode-veryPaleBlueTop dark:bg-darkMode-veryDarkBlueBgTop w-full h-60 absolute z-0 rounded-b-lg'></div>
 
             <div className='min-h-screen lg:px-40 px-7 z-10 relative'>
-                <div className='md:flex md:justify-between mx-auto pt-10 pb-10 md:pb-12'>
+                <div className='md:flex md:justify-between mx-auto pt-9 pb-10 md:pb-12'>
                     <div className=''>
                         <h3 className='lg:text-3xl text-2xl font-bold text-lightMode-text dark:text-darkMode-text'>Social Media Dashboard</h3>
                         <p className='text-lightMode-darkGrayishBlue dark:text-darkMode-desaturatedBlue'>Total Followers: 23,004</p>
@@ -42,7 +42,7 @@ const HomeComponent = () => {
                     </div>
 
                     <div className='flex items-center justify-between'>
-                        <label htmlFor="checkbox" className="font-bold text-lightMode-text dark:text-darkMode-desaturatedBlue text-sm cursor-pointer md:pr-0">Dark Mode</label>
+                        <label htmlFor="checkbox" className="font-bold text-lightMode-darkGrayishBlue dark:text-darkMode-desaturatedBlue text-sm cursor-pointer md:pr-0">Dark Mode</label>
                         <input type="checkbox" className="checkbox" id="checkbox" checked={!darkMode} onClick={themeHandler} />
                         <label htmlFor="checkbox" className="label">
                             <div className="ball"></div>
