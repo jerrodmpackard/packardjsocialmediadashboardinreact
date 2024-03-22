@@ -4,9 +4,9 @@ import HomeComponent from './Components/HomeComponent';
 
 function App() {
   return (
-    <>
+    <div className=''>
       <HomeComponent />
-    </>
+    </div>
   );
 }
 
